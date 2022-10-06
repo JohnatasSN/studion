@@ -106,20 +106,43 @@
             </div>
         </div>
     </section>
-    <footer>
-        <h2>Studi<span>on</span><span>Eventos</span></h2>
-        <form>
-            <label>receba news e promoções</label>
-            <input type="email" placeholder="Email" />
-            <button type="submit">Enviar</button>
-        </form>
-        <ul>
-            <li><a href="https://facebook.com/" target="_blank"> Facebook</a></li>
-            <li><a href="https://Twitter.com/" target="_blank">Twitter</a></li>
-            <li><a href="https://Youtube.com/" target="_blank">Youtube</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="container footer__container">
+            <h2 class="logo-studion">Studi<span class="copy-primary">on</span>
+                <span class="logo-studion__subtitle">Eventos</span></h2>
+            <form class="footer_form">
+                <label for="email">receba news e promoções</label>
+                <div class="footer_email">
+                    <input id="email" type="email" placeholder="Email" />
+                    <button type="submit">
+                        <i class="fa-sharp fa-solid fa-paper-plane "></i>
+                    </button>
+                </div>
+            </form>
+            <ul class="footer__social">
+                <li>
+                    <a href="https://facebook.com/" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://Twitter.com/" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                            <i class="fab fa-twitter fa-stack-1x "></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://Youtube.com/" target="_blank">
+                        <i class="far fa-circle-play fa-2x"></i>
+                    </a>
+                </li>
+            </ul>    
+        </div>
+     
         <hr />
-        <p><small>Studi<span>ON</span> - Todos os direitos reservados</small></p>
+        <p><small>Studi<span class="copy-primary">ON</span> - Todos os direitos reservados</small></p>
     </footer>
 </body>
 
